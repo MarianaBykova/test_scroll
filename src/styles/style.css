@@ -1,0 +1,37 @@
+.main-page__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 20%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  border: 2px solid rgb(27, 27, 168);
+}
+
+.card__content {
+  padding: 2%;
+}
+
+.card__content-info {
+  display: flex;
+  gap: 2%;
+}
+
+.title {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+span {
+  display: block;
+  text-align: right;
+}
+
+img {
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 72px;
+}
